@@ -167,11 +167,11 @@ plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].u
 xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
 bxd = ""
 kex = bxd+id
-myweb2 = requests.get("https://github.com/mrk3shav/Apporve/blob/main/App.txt").text
+myweb2 = requests.get("https://github.com/karunbista768/Apporve/blob/main/App.txt").text
 def apv():
 	try:
 		clear()
-		x = requests.get('https://github.com/mrk3shav/Apporve/blob/main/App.txt').text
+		x = requests.get('https://github.com/karunbista768/Apporve/blob/main/App.txt').text
 		if str("upppdate") in update:
 			os.system('clear')
 			exit('script is in update / maintanance be patient ')
